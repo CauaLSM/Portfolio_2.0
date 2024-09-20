@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+
+
+  <body>
+    <div class="container main">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-2">
+        <a
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img src="./images/portfolio.png" alt="imagem portfolio" />
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-black" aria-current="page"
+              >Ínicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#habilidades" class="nav-link text-black">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projetos" class="nav-link text-black">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sobre_mim" class="nav-link text-black">Sobre mim</a>
+          </li>
+          <li class="nav-item text-black dropdown">
+            <a
+              href="#"
+              class="nav-link text-black dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Social
+            </a>
+            <ul class="social dropdown-menu text-small shadow">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.instagram.com/caua_lsm?igsh=czJhMGdwc2Nqc2po"
+                >
+                  <img
+                    height="25"
+                    width="25"
+                    src="./images/instagram.svg"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </header>
+
+      <!--Descrição minha-->
+      <div class="container col-xxl-8 pb-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-1 px-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./images/ft-upscale.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6 pt-4">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              Cauã aqui, sou Desenvolvedor Full-Stack
+            </h1>
+            <p class="txt-principal">
+              Bem vindo ao meu portfolio. Sou um desenvolvedor web atualmente cursando Computação na Universidade Federal da Bahia.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-3 pb-md-4 mx-auto text-center">
+        <h2 class="display-5 fw-normal">Os sites que faço são...</h2>
+      </div>
+
+      <div class="row g-4 pb-5 row-cols-1 row-cols-lg-3 justify-content-center gap-5">
+        <div class="feature col cartão">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+            <img height="50" width="50" src="./images/tablet-e-laptop.png" alt="">
+          </div>
+          <h3 class="fs-2">Responsivos</h3>
+          <p>Meus layouts foram feitos para diversos dispositivos, sejam pequenos ou grandes.</p>
+        </div>
+        <div class="feature col cartão">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+            <img height="50" width="50" src="./images/foguete-inclinado.png" alt="">
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Dinâmicos</h3>
+          <p>Gosto de trazer vida aos sites, tornando-os interativos e aplicando uma boa estética a eles.</p>
+        </div>
+      </div>
+
+      <div id="habilidades" class="p-3 pb-md-4 mx-auto text-center">
+        <h2 class="decorativo display-5 fw-normal">Habilidades</h2>
+      </div>
+
+      <div class="skills p-4 p-md-5 mb-4 rounded text-body-emphasis">
+        
+        <h2 class="skill-title">Linguagens de Programação</h2>
+        
+        <div class="row g-2 pb-5 row-cols-1 row-cols-md-2 row-cols-lg-6 justify-content-center">
+
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/java-svgrepo-com.svg" alt="java logo">
+            </div>
+            <p>Java</p>
+          </div>
+      
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/c.svg" alt="C++ logo">
+            </div>
+            <p>C++</p>
+          </div>
+      
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/c-1.svg" alt="C logo">
+            </div>
+            <p>C</p>
+          </div>
+
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/logo-javascript.svg" alt="Javascript logo">
+            </div>
+            <p>JavaScript</p>
+          </div>
+      
+        </div>
+
+        <h2 class="skill-title">Front-End</h2>
+
+        <div class="row g-2 pb-5 row-cols-1 row-cols-md-2 row-cols-lg-6 justify-content-center">
+
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/html-1.svg" alt="HTML logo">
+            </div>
+            <p>HTML</p>
+          </div>
+      
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/w3_css-icon.svg" alt="CSS logo">
+            </div>
+            <p>CSS</p>
+          </div>
+      
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/bootstrap-4.svg" alt="Bootstrap logo">
+            </div>
+            <p>Bootstrap</p>
+          </div>
+      
+        </div>
+
+        <h2 class="skill-title">Back-End e Banco de Dados</h2>
+
+        <div class="row g-2 pb-5 row-cols-1 row-cols-md-2 row-cols-lg-6 justify-content-center">
+
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/mysql-icon.svg" alt="MySQL logo">
+            </div>
+            <p>MySQL</p>
+          </div>
+      
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/postgresql-icon.svg" alt="PostgreSQL logo">
+            </div>
+            <p>PostgreSQL</p>
+          </div>
+      
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/mongodb-svgrepo-com.svg" alt="MongoDB logo">
+            </div>
+            <p>MongoDB</p>
+          </div>
+      
+        </div>
+        
+        <h2 class="skill-title">Variados</h2>
+
+        <div class="row g-2 pb-5 row-cols-1 row-cols-md-2 row-cols-lg-6 justify-content-center">
+
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/visual-studio-code-1.svg" alt="VisualStudioCode logo">
+            </div>
+            <p>VS Code</p>
+          </div>
+      
+          <div class="feature col cartãohab text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mt-3">
+              <img height="50" width="50" src="images/canva-1.svg" alt="Canva logo">
+            </div>
+            <p>Canva</p>
+          </div>
+      
+        </div>
+
+      </div>
+
+      
+      <div id="projetos" class="p-3 pb-md-4 mx-auto text-center">
+        <h2 class="decorativo display-5 fw-normal">Projetos</h2>
+      </div>
+
+      <div class="d-flex flex-column-reverse flex-lg-row row-cols-lg-2 gap-2 align-items-center mb-4">
+        <div><img src="./images/Tindog.png" class="img-fluid" alt=""></div>
+        <div class="m-lg-5 m-4 flex-fill "><h1 class="fw-bold">Tin Dog</h1>
+        <p>Uma experimentação da capacidade do bootstrap com um tinder pra cachorros 🐶</p>
+       <a target="_blank" href="https://caualsm.github.io/Bootstrap-Dog_Tinder/"><button class="botao p-2">Learn more</button></a></div>
+     </div>
+
+     <div class="d-flex flex-column-reverse flex-lg-row row-cols-lg-2 gap-2 align-items-center mb-4">
+      <div><img src="./images/WhatsApp Image 2024-09-20 at 15.04.32.jpeg" class="img-fluid" alt=""></div>
+      <div class="m-lg-5 m-4 flex-fill "><h1 class="fw-bold">SpaceInvaders</h1>
+      <p>Projeto de uma imitação do jogo Space Invaders que fiz enquanto me familiarizava com o JavaScript.</p>
+     <a target="_blank" href="https://caualsm.github.io/SpaceInvaders/"><button class="botao p-2">Learn more</button></a></div>
+   </div>
+
+   <div id="sobre_mim" class="p-3 pb-md-4 mx-auto text-center">
+    <h2 class="decorativo display-5 fw-normal">Sobre mim</h2>
+  </div>
+
+  <div class="text-center about-me d-flex flex-column-reverse flex-lg-row row-cols-lg-2 gap-2 align-items-center my-4 rounded">
+  <div class="col-md-6">
+    <br>
+    <p>Sou estudante de Computação na Universidade Federal da Bahia e tenho uma grande paixão por tecnologia e aprendizado.</p>
+    <br>
+    <p>Durante minha trajetória, tive a oportunidade de ensinar programação para alunos do ensino médio profissionalizante, por meio de uma bolsa oferecida pela universidade, o que me proporcionou uma experiência enriquecedora de compartilhar conhecimento.</p>
+    <br>
+    <p>Também participei de competições de programação no instituto de computação, onde pude testar e aprimorar minhas habilidades.</p>
+    <br>
+    <p>Atualmente, estou me especializando em web development, sempre em busca de novos desafios e oportunidades para crescer na área.</p>
+  </div>
+  <div class="text-center col-md-6">
+    <h2>Manda um Oi!</h2>
+    <h2>Meu e-mail é:</h2>
+    <h2>caualuis2012@hotmail.com</h2>
+  </div>
+</div>
+
+  <footer class="py-3 my-4"></footer>
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ínicio</a></li>
+      <li class="nav-item"><a href="#habilidades" class="nav-link px-2 text-body-secondary">Habilidades</a></li>
+      <li class="nav-item"><a href="#projetos" class="nav-link px-2 text-body-secondary">Projetos</a></li>
+      <li class="nav-item"><a href="#sobre_mim" class="nav-link px-2 text-body-secondary">Sobre mim</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2024 Cauã Luís Santos Medeiros</p>
+  </footer>
+      
+    </div>
+
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
